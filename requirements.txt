@@ -2,3 +2,5 @@ streamlit
 google-genai
 python-dotenv
 
+  git config --global user.email "lavi11yakir13@gmail.com"
+  git config --global user.name "lavi"
