@@ -1,8 +1,16 @@
 import streamlit as st
-
-st.set_page_confige(
+from helper import *
+st.set_page_config(
     page_title="בוט שיעורי בית",
-    page_icon="🤓",
+    page_icon='🤓'
 )
+setRTL()
 
 st.title("בוט שיעורי בית")
+
+API_KEY = getAPIkey()
+
+Message("AI","היי איך אפשר לעזור לך?")
+userinput = st.chat_input("השאלה שלך")
+if userinput:
+    Message("User",userinput)
