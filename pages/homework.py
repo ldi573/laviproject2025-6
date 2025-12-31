@@ -1,8 +1,8 @@
 import streamlit as st
 from helper import *
 st.set_page_config(
-    Page_title="בוט שיעורי בית",
-    Page_icon='🤓'
+    page_title="בוט שיעורי בית",
+    page_icon='🤓'
 )
 setRTL()
 

@@ -4,8 +4,8 @@ from google import genai #generative ai = בינה מלאכותית יוצרת
 import streamlit as st #ספריה של ממשקים GUI
 
 st.set_page_config(
-    Page_title="משחק אליאס מול AI",
-    Page_icon='🤖'
+    page_title="משחק אליאס מול AI",
+    page_icon='🤖'
 )
 
 st.title("משחק אליאס ")
