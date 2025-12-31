@@ -136,7 +136,7 @@ st.markdown("<div class='heart'>❤️</div><div class='heart'>💛</div><div cl
 
 if st.button("👦 מעבר לעמוד של אליאס"):
     st.switch_page("Pages/alies.py")
-if st.button("👦 מעבר לעמוד של אליאס"):
+if st.button("👦 מעבר לעמוד של השיעורי בית"):
     st.switch_page("Pages/homework.py")
 
 
