@@ -135,9 +135,9 @@ st.markdown("<div class='subtitle'>צבעים מטורפים, אנימציות �
 st.markdown("<div class='heart'>❤️</div><div class='heart'>💛</div><div class='heart'>💚</div><div class='heart'>💙</div><div class='heart'>💜</div>", unsafe_allow_html=True)
 
 if st.button("👦 מעבר לעמוד של אליאס"):
-    st.switch_page("Pages/alies.py")
+    st.switch_page("pages/alies.py")
 if st.button("👦 מעבר לעמוד של השיעורי הבית"):
-    st.switch_page("Pages/homework.py")
+    st.switch_page("pages/homework.py")
 
 
 
