@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(
     Page_title="הפרוייקט של לביא 🔥",
-    Page_icon="🚀",
+    Page_icon="🚀🚀",
     layout="wide"
 )
 
