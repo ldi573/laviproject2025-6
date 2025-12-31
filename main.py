@@ -9,7 +9,7 @@ st.set_page_config(
 # ───── CSS אנימציות מגניבות 🔥 ─────
 st.markdown("""
 <style>
-/* רקע גרדיאנט זז מטורף */
+/* רקע גרדאנט זז מטורף */
 @keyframes bgMove {
   0% {background-position: 0% 50%;}
   50% {background-position: 100% 50%;}
