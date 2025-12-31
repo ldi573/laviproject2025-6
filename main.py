@@ -136,16 +136,8 @@ st.markdown("<div class='heart'>❤️</div><div class='heart'>💛</div><div cl
 
 if st.button("👦 מעבר לעמוד של אליאס"):
     st.switch_page("pages/alies.py")
-
-st.markdown("### מה מחכה כאן באתר 👇")
-
-st.markdown("""
-<div class='card'>🔥 עמוד אליאס המעוצב</div>
-<div class='card'>🔥 כרטיסים עם float ו-rotate</div>
-<div class='card'>🔥 כפתורים זזים ומסובבים</div>
-<div class='card'>🔥 רקע גרדיאנט זז</div>
-<div class='card'>🔥 חוויה צבעונית ומושכת עין</div>
-<div class='card'>🔥 כל דף עם אנימציות מגניבות</div>
-""", unsafe_allow_html=True)
+if st.button("👦 מעבר לעמוד של השיעורי הבית"):
+    st.switch_page("Pages/homework.py")
 
 st.markdown("</div>", unsafe_allow_html=True)
+
